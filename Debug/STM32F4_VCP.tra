@@ -1,0 +1,45 @@
+*** Creating Trace Output File '.\Debug\STM32F4_VCP.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\debug\main.o"'
+### List of Objects: adding '".\debug\stm32f4_discovery.o"'
+### List of Objects: adding '".\debug\usb_bsp.o"'
+### List of Objects: adding '".\debug\usbd_desc.o"'
+### List of Objects: adding '".\debug\usbd_usr.o"'
+### List of Objects: adding '".\debug\usbd_cdc_vcp.o"'
+### List of Objects: adding '".\debug\config.o"'
+### List of Objects: adding '".\debug\stm32f4xx_it.o"'
+### List of Objects: adding '".\debug\startup_stm32f4xx.o"'
+### List of Objects: adding '".\debug\usb_core.o"'
+### List of Objects: adding '".\debug\usb_dcd.o"'
+### List of Objects: adding '".\debug\usb_dcd_int.o"'
+### List of Objects: adding '".\debug\usbd_cdc_core.o"'
+### List of Objects: adding '".\debug\usbd_core.o"'
+### List of Objects: adding '".\debug\usbd_ioreq.o"'
+### List of Objects: adding '".\debug\usbd_req.o"'
+### List of Objects: adding '".\debug\misc.o"'
+### List of Objects: adding '".\debug\stm32f4xx_exti.o"'
+### List of Objects: adding '".\debug\stm32f4xx_flash.o"'
+### List of Objects: adding '".\debug\stm32f4xx_gpio.o"'
+### List of Objects: adding '".\debug\stm32f4xx_rcc.o"'
+### List of Objects: adding '".\debug\stm32f4xx_syscfg.o"'
+### List of Objects: adding '".\debug\stm32f4xx_usart.o"'
+### List of Objects: adding '".\debug\stm32f4xx_adc.o"'
+### List of Objects: adding '".\debug\stm32f4xx_dac.o"'
+### List of Objects: adding '".\debug\system_stm32f4xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp ".\debug\main.o" ".\debug\stm32f4_discovery.o" ".\debug\usb_bsp.o" ".\debug\usbd_desc.o" ".\debug\usbd_usr.o" ".\debug\usbd_cdc_vcp.o" ".\debug\config.o" ".\debug\stm32f4xx_it.o" ".\debug\startup_stm32f4xx.o" ".\debug\usb_core.o" ".\debug\usb_dcd.o" ".\debug\usb_dcd_int.o" ".\debug\usbd_cdc_core.o" ".\debug\usbd_core.o" ".\debug\usbd_ioreq.o" ".\debug\usbd_req.o" ".\debug\misc.o" ".\debug\stm32f4xx_exti.o" ".\debug\stm32f4xx_flash.o" ".\debug\stm32f4xx_gpio.o" ".\debug\stm32f4xx_rcc.o" ".\debug\stm32f4xx_syscfg.o" ".\debug\stm32f4xx_usart.o" ".\debug\stm32f4xx_adc.o" ".\debug\stm32f4xx_dac.o" ".\debug\system_stm32f4xx.o" 
+--library_type=microlib --strict --scatter ".\Debug\STM32F4_VCP.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\STM32F4_VCP.map" -o .\Debug\STM32F4_VCP.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Debug\STM32F4_VCP.axf'
+### ADS-LD Command File: '.\Debug\STM32F4_VCP.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Debug\STM32F4_VCP.lnp', Handle=0x000003CC
+### Writing '.lnp' file
+### ADS-LD Command file '.\Debug\STM32F4_VCP.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
